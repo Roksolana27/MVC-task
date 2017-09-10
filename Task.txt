@@ -1,0 +1,13 @@
+Practice task requirements:
+
+Create MVC application according to design provided in design.png file:
+
+- Create index.html file containing placeholders for all views, link to style.css, external jQuery script and app.js file;
+- inside app.js create model and control objects and a separate objects for every view on page;
+- 'Persons list' view - a list of persons, stores in model
+- 'Persons score' view - a list of score value for every person in the same order that persons list has;
+- 'Current person data' view for displaying data for current person including photo, name and score value;
+- When user clicks on any person's name current user data should be rendered in 'Current person data' view;
+- 'Persons score' view should include hidden text input element containing current value of person's score. It should be shown when users clicks on score value container and focus should be placed on input automatically. Current person's data view should be shown in this case. User can change input value and when input loose focus then input value should be saved in model.
+Add some functionality to MVC application - 'Current person brief info' view for displaying data for current person
+- 'Persons sorting' view for sorting persons in the list by clicking on 'up' and 'down' arrows
